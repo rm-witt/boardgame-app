@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.boardgameapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_chat"
+            app:destination="@id/nav_chat"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_poll"
+            app:destination="@id/nav_poll"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_members"
+            app:destination="@id/nav_members"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_collection"
+            app:destination="@id/nav_collection"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.boardgameapp.ui.chat.ChatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/nav_members"
+        android:name="com.example.boardgameapp.ui.members.MembersFragment"
+        android:label="@string/menu_members"
+        tools:layout="@layout/fragment_members" />
+    <fragment
+        android:id="@+id/nav_collection"
+        android:name="com.example.boardgameapp.ui.collection.CollectionFragment"
+        android:label="@string/menu_collection"
+        tools:layout="@layout/fragment_collection" />
+    <fragment
+        android:id="@+id/nav_poll"
+        android:name="com.example.boardgameapp.ui.poll.PollFragment"
+        tools:layout="@layout/fragment_poll"
+        android:label="@string/menu_poll" />
+    <fragment
+        android:id="@+id/nav_ratings"
+        android:name="com.example.boardgameapp.ui.ratings.RatingsFragment"
+        android:label="@string/menu_rating"
+        tools:layout="@layout/fragment_ratings" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.boardgameapp.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile"
+        android:label="@string/menu_profile" />
+</navigation>

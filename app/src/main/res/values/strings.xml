@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Boardgame App</string>
+
+    <string name="menu_home">Übersicht</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_members">Mitglieder</string>
+    <string name="menu_collection">Spielesammlung</string>
+    <string name="menu_poll">Abstimmung</string>
+    <string name="menu_rating">Bewertung</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="login_mail">E-Mail Adresse:</string>
+    <string name="login_pw">Passwort:</string>
+
+    <string name="rating_evening">🎲</string>
+    <string name="rating_food">🍕</string>
+    <string name="rating_host">🤵</string>
+    <string name="send_symbol">➤</string>
+    <string name="edit_symbol">✎</string>
+    <string name="ok_symbol">✓</string>
+
+    <string name="write_chat_message">Schreibe deine Nachricht</string>
+    <string name="game_input">Name des Spiels</string>
+    <string name="next_meeting">Nächster Termin:</string>
+    <string name="at_host">Bei:</string>
+    <string name="next_host">Nächster Gastgeber:</string>
+    <string name="group_photo">Gruppenfoto</string>
+    <string name="member_is_host">Host</string>
+    <string name="member_is_admin">Admin</string>
+    <string name="member_is_host_and_admin">Admin &amp; Host</string>
+    <string name="poll_is_active">Abstimmung läuft</string>
+    <string name="poll_is_not_active">Abstimmung beendet</string>
+    <string name="vote_game">Abschicken</string>
+    <string name="poll_not_active">Keine laufende Abstimmung</string>
+    <string name="select_game">Spiel auswählen</string>
+    <string name="interim_results">Zwischenergebnisse</string>
+    <string name="login_button">Login</string>
+    <string name="howto_rate">Bitte bewerte deinen Gastgeber, das Essen und den gesamten Abend.</string>
+    <string name="enter_comment">Kommentar eingeben</string>
+    <string name="rate_person">Bewertung abgeben</string>
+</resources>
